@@ -7,7 +7,7 @@ function Header() {
       <div className="header-container">
       <img src={logo} alt=""/>
         <h1>
-          this is the day the lord has made let us rejoice and be glad in it
+        Hello world
         </h1>
       </div>
     </div>
