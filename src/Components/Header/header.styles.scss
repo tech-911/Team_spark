@@ -1,15 +1,28 @@
 .header {
-  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
   height: 10vh;
   width: 100vw;
-  .header-container{
-      width: 100%;
-      height: 100%;
+  padding: 0px 60px;
+  .right-item {
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: space-between;
+      width: 20em;
+    #img2 {
+      width: 30px;
+    }
+    #link {
+      text-decoration: none;
+      color: black;
+    }
   }
-  .header-container > img {
+
+  #img1 {
     width: 170px;
     height: 75px;
   }
