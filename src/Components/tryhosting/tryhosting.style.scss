@@ -1,0 +1,63 @@
+.tryhosting {
+  background-image: url("../../assets/groupme.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 9px;
+  width: 87.5%;
+  margin-left: 6.2%;
+  margin-top: 2.5em;
+
+  .tryhosting-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    padding-top: 120px;
+    padding-left: 100px;
+    height: 500px;
+
+    #tryh1 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: 0.025em;
+      color: #ffffff;
+    }
+    #tryh2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 0.025em;
+      color: #ffffff;
+      margin-top: 20px;
+    }
+    #button {
+      width: 133px;
+      height: 49px;
+      background: #ffffff;
+      border-radius: 6px;
+      border: none;
+      margin-top: 50px;
+      cursor: pointer;
+
+      #p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        letter-spacing: 0.025em;
+        color: #000000;
+      }
+    }
+  }
+}

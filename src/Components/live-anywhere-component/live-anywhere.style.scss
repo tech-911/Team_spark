@@ -1,0 +1,23 @@
+.LiveAnywhere {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0 1.5%;
+  img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+
+  #span1 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    margin-top: 20px;
+   
+  }
+}
