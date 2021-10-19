@@ -53,4 +53,23 @@
       margin-bottom: 1em;
     }
   }
+  .Discover {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+
+    // align-items: center;
+    // justify-content: space-between;
+    #h1 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 33px;
+      line-height: 49px;
+      letter-spacing: -0.005em;
+      color: #000000;
+      margin-left: 6.5%;
+      margin-bottom: 1em;
+    }
+  }
 }

@@ -4,6 +4,7 @@ import SearchOptions from "../../Components/SearchOptions/searchOptions.componen
 import btn from "../../assets/I’m flexible.png";
 import LiveView from "../../Components/live-anywhere-component/live-anywhere.view";
 import TryHosting from "../../Components/tryhosting/tryhosting.components";
+import Discover from "../../Components/Discover/discover";
 
 function HomePage() {
   return (
@@ -25,8 +26,9 @@ function HomePage() {
         <LiveView />
         <TryHosting />
       </div>
-      <div className="discover">
-
+      <div className="Discover">
+        <h1 id="h1">Discover things to do</h1>
+        <Discover />
       </div>
       <div className="HomePage-firstFooter">im the first footer</div>
       <div className="HomePage-secondFooter">im a footer</div>
