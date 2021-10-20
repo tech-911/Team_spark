@@ -72,4 +72,29 @@
       margin-bottom: 1em;
     }
   }
+  .HomePage-firstFooter {
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background: #f7f7f7;
+    padding: 50px;
+    * {
+      font-family: Poppins;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: -0.005em;
+      color: #000000;
+    }
+  }
+  .HomePage-secondFooter {
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
 }
