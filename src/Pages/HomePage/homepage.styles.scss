@@ -74,12 +74,17 @@
   }
   .HomePage-firstFooter {
     margin-top: 2.5em;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
     background: #f7f7f7;
     padding: 50px;
+
+    .HomePage-firstFooter-child {
+      width: 90%;
+      margin-left: 5%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
     * {
       font-family: Poppins;
       font-style: normal;
@@ -95,6 +100,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding-left: 110px;
+    padding-bottom: 50px;
+    .footer-right{
+      margin-right: 100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      *{
+        margin-left: 10px;
+      }
+    }
   }
 }
