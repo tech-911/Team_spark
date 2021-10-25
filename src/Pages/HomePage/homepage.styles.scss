@@ -21,6 +21,13 @@
       align-items: center;
       justify-content: space-between;
       height: 110px;
+      #btn-home{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+      }
       p {
         color: white;
         font-weight: normal;

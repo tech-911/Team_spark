@@ -1,7 +1,7 @@
 import React from "react";
 import "./homepage.styles.scss";
 import SearchOptions from "../../Components/SearchOptions/searchOptions.components";
-import btn from "../../assets/I’m flexible.png";
+import btn from "../../assets/View Catalogue.png";
 import LiveView from "../../Components/live-anywhere-component/live-anywhere.view";
 import TryHosting from "../../Components/tryhosting/tryhosting.components";
 import Discover from "../../Components/Discover/discover";
@@ -9,10 +9,13 @@ import IconsFacebook from "../../assets/icons/facebook.png";
 import IconsLanguage from "../../assets/icons/language_24px.png";
 import Iconstwitter from "../../assets/icons/twitter.png";
 import Iconsinstagram from "../../assets/icons/facebook.png";
+import Header from "../../Components/Header/header.components";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
     <div className="HomePage">
+      <Header />
       <div className="HomePage-top">
         <div className="SearchOptoins">
           <SearchOptions />
@@ -20,9 +23,11 @@ function HomePage() {
 
         <div className="lower-item">
           <p>Not sure were to go? Perfect.</p>
-          <button>
-            <img src={btn} alt="" />
-          </button>
+          <Link to="/">
+            <button id="btn-home">
+              <img src={btn} alt="" />
+            </button>
+          </Link>
         </div>
       </div>
       <div className="live-anywhere">
