@@ -15,6 +15,7 @@ function Google() {
           className="googlestyle"
           allowfullscreen=""
           loading="lazy"
+         title="google"
         ></iframe>
       </div>
     </div>
