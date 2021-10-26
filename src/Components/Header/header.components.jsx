@@ -9,7 +9,10 @@ import Dropdown from "../Dropdown/dropdown.components";
 function Header() {
   return (
     <div className="header">
-      <img id="img1" src={logo} alt="" />
+    <Link to="/">
+       <img id="img1" src={logo} alt="" />
+    </Link>
+     
       <NavInput />
       <div className="right-item">
         <Link id="link" to="/">

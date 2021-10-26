@@ -23,7 +23,7 @@ function HomePage() {
 
         <div className="lower-item">
           <p>Not sure were to go? Perfect.</p>
-          <Link to="/">
+          <Link to="/catalogue">
             <button id="btn-home">
               <img src={btn} alt="" />
             </button>
