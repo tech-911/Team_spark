@@ -1,9 +1,9 @@
-.catalogue {
+.forth {
   display: flex;
   flex-direction: column;
   align-items: center;
-  .first-catalogue {
-    background-image: url("../../assets/lodges images/first lodge/first-lodge.png");
+  .forth-top {
+    background-image: url("../../assets/lodges images/forth lodge/forth.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 700px;
+    height: 900px;
     border-radius: 20px;
     width: 98%;
     img {

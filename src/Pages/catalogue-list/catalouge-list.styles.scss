@@ -1,0 +1,34 @@
+.catalogue-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2.5em;
+  #size {
+    width: 90%;
+    border-radius: 20px;
+    transition: width 2s ease-in-out;
+  }
+  * {
+    padding: 0.4%;
+  }
+}
+#catList-link {
+  text-decoration: none;
+  color: black;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: -0.005em;
+  transition: color 2s;
+}
+#catList-link:hover{
+    color: red;
+}
+#size:hover{
+    width: 100%;
+}

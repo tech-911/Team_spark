@@ -75,7 +75,7 @@ function HomePage() {
           <div className="two">
             <b>COMMUNITY</b>
             <p>
-              Diversity & Belonging
+              {/* Diversity & Belonging
               <br />
               Against Discrimination
               <br />
@@ -89,14 +89,14 @@ function HomePage() {
               <br />
               Gift cards
               <br />
-              Airbnb.org
+              Airbnb.org */}
             </p>
           </div>
 
           <div className="three">
             <b>SUPPORT</b>
             <p>
-              How Airbnb works
+              {/* How Airbnb works
               <br />
               Our COVID-19 Response
               <br />
@@ -106,13 +106,13 @@ function HomePage() {
               <br />
               Neighborhood Support
               <br />
-              Trust & Safety
+              Trust & Safety */}
             </p>
           </div>
           <div className="four">
             <b>HOST</b>
             <p>
-              Diversity & Belonging
+              {/* Diversity & Belonging
               <br />
               Against Discrimination
               <br />
@@ -126,7 +126,7 @@ function HomePage() {
               <br />
               Gift cards
               <br />
-              Airbnb.org
+              Airbnb.org */}
             </p>
           </div>
         </div>
