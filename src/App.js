@@ -2,7 +2,8 @@ import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 // import Header from "./Components/Header/header.components";
 import Error from "./Pages/404/error_pages";
-import Catalogue from "./Pages/catalogue/catalogue.components";
+import CatalogueList from "./Pages/catalogue-list/catalogue-list";
+import Catalogue from "./Pages/catalogue/first-lodge";
 import Google from "./Pages/google/google.components";
 import Homepage from "./Pages/HomePage/homepage.components";
 import Signup from "./Pages/signin_signUp_Page/signup.page";
@@ -14,6 +15,8 @@ function App() {
         <Route exact path="/signup" component={Signup} />
         <Route exact path="/404" component={Error} />
         <Route exact path="/catalogue" component={Catalogue} />
+        <Route exact path="/catList" component={CatalogueList} />
+        
         <Route exact path="/Google" component={Google} />
         <Redirect to="/404" />
       </Switch>

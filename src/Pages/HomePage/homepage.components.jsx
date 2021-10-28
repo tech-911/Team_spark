@@ -23,7 +23,7 @@ function HomePage() {
 
         <div className="lower-item">
           <p>Not sure were to go? Perfect.</p>
-          <Link to="/catalogue">
+          <Link to="/catList">
             <button id="btn-home">
               <img src={btn} alt="" />
             </button>
@@ -44,25 +44,31 @@ function HomePage() {
           <div className="one">
             <b>ABOUT</b>
             <p>
-              How Airbnb works
+              Olaogun Ayomide Magaret
               <br />
-              Newsroom
+              2018/2/74165Vl
               <br />
-              Investors
+              Suleiman Ohida Abdulazeez
               <br />
-              Airbnb Plus
+              2017/1/68775VL
               <br />
-              Airbnb Luxe
+              Suleiman Farouk <br />
+              2016/1/63285VL
               <br />
-              HotelTonight
+              Samuel Barnabas Aleogho
               <br />
-              Airbnb for Work
+              2017/1/68565VL
               <br />
-              Made possible by Hosts
+              Emmanuel Victoria Rhitetse
               <br />
-              Careers
+              2017/1/65945VL
               <br />
-              Founders' Letter
+              Reuben Anibeh Sarah
+              <br />
+              2017/1/65915VL
+              <br />
+              Adegboyega Oluwadamilare <br />
+              2017/1/65055VL
             </p>
           </div>
 

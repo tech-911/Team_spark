@@ -1,0 +1,62 @@
+.catalogue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .first-catalogue {
+    background-image: url("../../assets/lodges images/first lodge/first-lodge.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    border-radius: 20px;
+    width: 98%;
+    img {
+      background: white;
+      border-radius: 30px;
+      padding: 20px;
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 2.5em;
+    .features {
+      margin-top: 30px;
+      h4 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        color: #000000;
+      }
+    }
+  }
+  .sub-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 70px;
+    .description-right-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin: 5%;
+      img {
+        height: 150px;
+        width: 150px;
+        cursor: pointer;
+      }
+    }
+  }
+}
