@@ -30,14 +30,45 @@
     width: 100%;
     margin-left: 2%;
     margin-top: 2.5em;
-    .features {
-      margin-top: 30px;
-      h4 {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 200;
-        font-size: 20px;
-        color: #000000;
+    .description-first-item {
+      width: 50%;
+      .number-remaining {
+        margin-top: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        padding-bottom: 30px;
+        h1 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 50px;
+          color: #000000;
+        }
+        p {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 15px;
+          color: #000000;
+        }
+      }
+      .features {
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        margin-top: 30px;
+        h1 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 50px;
+          color: #000000;
+        }
+        h4 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          color: #000000;
+        }
       }
     }
   }
