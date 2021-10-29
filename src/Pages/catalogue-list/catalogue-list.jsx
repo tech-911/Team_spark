@@ -33,7 +33,7 @@ function CatalogueList() {
         <div>
           <img id="size" src={Forth} alt="" />
           <Link to="/forth" id="catList-link">
-            <p>Compton Lodge</p>
+            <p>Nasruj Lodge</p>
           </Link>
         </div>
       </div>
