@@ -3,7 +3,7 @@ import Header from "../../Components/Header/header.components";
 import "./second-lodge.styles.scss";
 import mapIcon from "../../assets/google map.jpg";
 import { Link } from "react-router-dom";
-import frontLogo from "../../assets/Green Lodge.png";
+import frontLogo from "../../assets/Vatican City Lodge.png";
 import payStack from "../../assets/paystack.jpeg";
 function Second() {
   return (
