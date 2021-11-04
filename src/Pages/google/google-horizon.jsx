@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../Components/Header/header.components";
-import "./google-horizon.styles.scss";
+import "./google-horizon.scss";
 
 function GoogleSeventh() {
   return (

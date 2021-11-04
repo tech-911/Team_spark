@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../Components/Header/header.components";
-import "./google-salvation.styles.scss";
+import "./google-salvation.scss";
 
 function GoogleSixth() {
   return (
