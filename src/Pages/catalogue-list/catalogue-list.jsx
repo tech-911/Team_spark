@@ -8,9 +8,9 @@ import Forth from "../../assets/catalogue-list/4.png";
 
 import Header from "../../Components/Header/header.components";
 import { Link } from "react-router-dom";
-import Fift from "../../assets/catalogue-list/5a.png";
-import Sixth from "../../assets/catalogue-list/6a.png";
-import Seventh from "../../assets/catalogue-list/7a.png";
+import Fift from "../../assets/catalogue-list/5a.jpg";
+import Sixth from "../../assets/catalogue-list/6a.jpg";
+import Seventh from "../../assets/catalogue-list/7a.jpg";
 function CatalogueList() {
   return (
     <div>
