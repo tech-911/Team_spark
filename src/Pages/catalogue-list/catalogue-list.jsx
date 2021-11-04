@@ -7,6 +7,9 @@ import Forth from "../../assets/catalogue-list/4.png";
 
 import Header from "../../Components/Header/header.components";
 import { Link } from "react-router-dom";
+import Fift from "../catalogue/fifth-lodge/5a.png";
+import Sixth from "../catalogue/sixth-lodge/6a.png";
+import Seventh from "../catalogue/seventh-lodge/7a.png";
 function CatalogueList() {
   return (
     <div>
@@ -34,6 +37,24 @@ function CatalogueList() {
           <img id="size" src={Forth} alt="" />
           <Link to="/forth" id="catList-link">
             <p>Compton Lodge</p>
+          </Link>
+        </div>
+        <div>
+          <img id="size" src={Fift} alt="" />
+          <Link to="/fifth" id="catList-link">
+            <p>ASG Lodge</p>
+          </Link>
+        </div>
+        <div>
+          <img id="size" src={Sixth} alt="" />
+          <Link to="/sixth" id="catList-link">
+            <p>Salvation Lodge</p>
+          </Link>
+        </div>
+        <div>
+          <img id="size" src={Seventh} alt="" />
+          <Link to="/seventh" id="catList-link">
+            <p>Horizon Lodge</p>
           </Link>
         </div>
       </div>
