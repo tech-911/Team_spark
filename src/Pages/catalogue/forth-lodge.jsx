@@ -3,7 +3,7 @@ import Header from "../../Components/Header/header.components";
 import "./forth-lodge.styles.scss";
 import mapIcon from "../../assets/google map.jpg";
 import { Link } from "react-router-dom";
-import frontLogo from "../../assets/Compton Lodge.png";
+import frontLogo from "../../assets/Naruj Lodge.png";
 import payStack from "../../assets/paystack.jpeg";
 function Forth() {
   return (
