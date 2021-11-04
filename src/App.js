@@ -19,7 +19,6 @@ import GoogleSeventh from "./Pages/google/google-horizon";
 import Google from "./Pages/google/google.components";
 import Homepage from "./Pages/HomePage/homepage.components";
 import Signup from "./Pages/signin_signUp_Page/signup.page";
-import GoogleFifth from "./Pages/google/google-asglodge";
 function App() {
   return (
     <div>
