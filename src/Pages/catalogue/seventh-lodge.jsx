@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../Components/Header/header.components";
-import "./third-lodge.styles.scss";
+import "./seventh-lodge.styles.scss";
 import mapIcon from "../../assets/google map.jpg";
 import { Link } from "react-router-dom";
 import frontLogo from "../../assets/Horizon Lodge.png";
@@ -40,7 +40,7 @@ function Seventh() {
       </div>
       <div className="sub-description">
         <div className="description-right-item">
-          <Link to="/GoogleThird">
+          <Link to="/GoogleSeventh">
             <img src={mapIcon} alt="" />
           </Link>
         </div>

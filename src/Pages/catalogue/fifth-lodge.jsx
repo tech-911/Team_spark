@@ -40,7 +40,7 @@ function Fifth() {
       </div>
       <div className="sub-description">
         <div className="description-right-item">
-          <Link to="/GoogleThird">
+          <Link to="/GoogleFifth">
             <img src={mapIcon} alt="" />
           </Link>
         </div>

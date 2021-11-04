@@ -13,9 +13,13 @@ import Third from "./Pages/catalogue/third-lodge";
 import GoogleThird from "./Pages/google/google-decamp";
 import GoogleForth from "./Pages/google/google-forth";
 import GoogleSecond from "./Pages/google/google-greenlodge";
+import GoogleFifth from "./Pages/google/google-asglodge";
+import GoogleSixth from "./Pages/google/google-salvation";
+import GoogleSeventh from "./Pages/google/google-horizon";
 import Google from "./Pages/google/google.components";
 import Homepage from "./Pages/HomePage/homepage.components";
 import Signup from "./Pages/signin_signUp_Page/signup.page";
+import GoogleFifth from "./Pages/google/google-asglodge";
 function App() {
   return (
     <div>
@@ -36,6 +40,9 @@ function App() {
         <Route exact path="/GoogleSecond" component={GoogleSecond} />
         <Route exact path="/GoogleThird" component={GoogleThird} />
         <Route exact path="/GoogleForth" component={GoogleForth} />
+        <Route exact path="/GoogleFifth" component={GoogleFifth} />
+        <Route exact path="/GoogleSixth" component={GoogleSixth} />
+        <Route exact path="/GoogleSeventh" component={GoogleSeventh} />
         <Redirect to="/404" />
       </Switch>
     </div>
