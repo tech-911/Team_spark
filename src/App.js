@@ -30,9 +30,9 @@ function App() {
         <Route exact path="/second" component={Second} />
         <Route exact path="/third" component={Third} />
         <Route exact path="/forth" component={Forth} />
-        <Route exact path="/second" component={Fift} />
-        <Route exact path="/third" component={Sixth} />
-        <Route exact path="/forth" component={Seventh} />
+        <Route exact path="/fifth" component={Fift} />
+        <Route exact path="/sixth" component={Sixth} />
+        <Route exact path="/seventh" component={Seventh} />
         <Route exact path="/catList" component={CatalogueList} />
         
         <Route exact path="/Google" component={Google} />
