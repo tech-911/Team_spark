@@ -24,7 +24,7 @@ function CatalogueList() {
         <div>
           <img id="size" src={Second} alt="" />
           <Link to="/second" id="catList-link">
-            <p>Green Lodge</p>
+            <p>Vatican City Lodge</p>
           </Link>
         </div>
         <div>
@@ -36,7 +36,7 @@ function CatalogueList() {
         <div>
           <img id="size" src={Forth} alt="" />
           <Link to="/forth" id="catList-link">
-            <p>Compton Lodge</p>
+            <p>Nasruj Lodge</p>
           </Link>
         </div>
         <div>
