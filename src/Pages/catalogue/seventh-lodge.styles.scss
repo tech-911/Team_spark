@@ -1,0 +1,94 @@
+.seventh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .seventh-top {
+    background-image: url("../../assets/lodges images/seventh lodge/7.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    border-radius: 20px;
+    width: 98%;
+    img {
+      background: white;
+      border-radius: 30px;
+      padding: 20px;
+      box-shadow: 0px 4px 88px 26px rgba(0, 0, 0, 0.25), 0px 0px 40px 11px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 2.5em;
+    .description-first-item {
+      width: 50%;
+      .number-remaining {
+        margin-top: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        padding-bottom: 30px;
+        h1 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 50px;
+          color: #000000;
+        }
+        p {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 15px;
+          color: #000000;
+        }
+      }
+      .features {
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        margin-top: 30px;
+        h1 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 50px;
+          color: #000000;
+        }
+        h4 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          color: #000000;
+        }
+      }
+    }
+  }
+  .sub-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 70px;
+    .description-right-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin: 5%;
+      img {
+        height: 150px;
+        width: 150px;
+        cursor: pointer;
+      }
+    }
+  }
+}
